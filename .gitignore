@@ -1,0 +1,48 @@
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build and distribution
+build/
+dist/
+output/
+*.bak
+
+# Binaries & Large archives (hosted via GitHub Releases)
+*.exe
+*.msi
+*.zip
+*.tar.gz
+*.7z
+*.dll
+models/*.onnx
+
+# Secrets & Environment variables
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.token
+*.secret
+
+# Logs & Audit outputs
+*.log
+audit_reports/
+*.csv
+!examples/*.csv
+
+# OS metadata
+.DS_Store
+Thumbs.db

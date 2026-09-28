@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest>=8,<10
+pyinstaller>=6.10,<7
+ruff>=0.11
+mypy>=1.15
+onnx>=1.16,<2
